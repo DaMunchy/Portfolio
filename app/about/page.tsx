@@ -79,7 +79,7 @@ export default function About() {
           <p className="text-white/90 leading-relaxed">
             I&apos;m an 11th grade student who enjoys coding. I love learning new
             things and building fun or useful stuff with web technologies. This
-            portfolio showcases some of the things I've worked on, like bots,
+            portfolio showcases some of the things I&apos;ve worked on, like bots,
             games, and web apps.
           </p>
         </motion.div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 
 export default function Home() {
   const audioRef = useRef<HTMLAudioElement | null>(null);

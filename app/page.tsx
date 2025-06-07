@@ -94,7 +94,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white via-purple-400 to-white text-transparent bg-clip-text drop-shadow animate-pulse"
         >
-          Hi, I'm Munchy
+          Hi, I&apos;m Munchy
         </motion.h2>
 
         <motion.div

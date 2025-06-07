@@ -77,7 +77,7 @@ export default function About() {
           className="bg-white/10 backdrop-blur-md px-8 py-6 rounded-2xl border border-white/20 max-w-2xl text-lg shadow-lg text-center"
         >
           <p className="text-white/90 leading-relaxed">
-            I'm an 11th grade student who enjoys coding. I love learning new
+            I&apos;m an 11th grade student who enjoys coding. I love learning new
             things and building fun or useful stuff with web technologies. This
             portfolio showcases some of the things I've worked on, like bots,
             games, and web apps.

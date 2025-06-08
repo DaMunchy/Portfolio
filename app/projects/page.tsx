@@ -21,10 +21,10 @@ export default function Projects() {
       link: "/",
     },
     {
-      title: "RPG Game",
+      title: "AI Chat",
       description:
-        "A text-based adventure game with hunting, weapons, monsters, and loot.",
-      link: "#",
+        "Talk to Nyxelia — an AI built for easy, meaningful conversations right in your browser.",
+      link: "https://nyxchat.vercel.app/",
     },
     {
       title: "Anonymous Message App",

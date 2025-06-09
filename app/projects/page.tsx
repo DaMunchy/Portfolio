@@ -27,10 +27,10 @@ export default function Projects() {
       link: "https://nyxchat.vercel.app/",
     },
     {
-      title: "Anonymous Message App",
+      title: "Nyx Downloader",
       description:
-        "A web app like NGL for sending and receiving anonymous messages, built with Next.js and MongoDB.",
-      link: "#",
+        "NyxDownloader is a modern, minimalist YouTube downloader built with Next.js. Instantly download YouTube videos and audio in MP3 or MP4 format without ads or distractions.",
+      link: "https://nyxdl.vercel.app/",
     },
   ];
 

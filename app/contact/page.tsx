@@ -80,10 +80,10 @@ export default function Contact() {
             Feel free to reach out via email. I’m open to collaborations, feedback, or just a friendly chat.
           </p>
           <a
-            href="mailto:munchy@example.com"
+            href="mailto:munchynes@gmail.com"
             className="inline-block mt-2 px-6 py-2 border border-white/30 text-white rounded hover:bg-white/20 transition"
           >
-            munchynes@gmail.com
+            Email
           </a>
         </motion.div>
       </div>

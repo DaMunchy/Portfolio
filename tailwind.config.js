@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       animation: {
         'fade-in-up': 'fade-in-up 0.7s ease-out forwards',
         'spin-slow-cw': 'spin-slow-cw 3.5s linear infinite',
@@ -30,24 +33,33 @@ module.exports = {
           to: { transform: 'rotate(-360deg)' },
         },
         'orb-glow': {
-          '0%, 100%': { transform: 'scale(1)', boxShadow: '0 0 15px rgba(255,255,255,0.7), 0 0 25px rgba(0,191,255,0.4)' },
-          '50%': { transform: 'scale(1.1)', boxShadow: '0 0 25px rgba(255,255,255,0.9), 0 0 40px rgba(0,191,255,0.7)' },
+          '0%, 100%': {
+            transform: 'scale(1)',
+            boxShadow: '0 0 15px rgba(255,255,255,0.7), 0 0 25px rgba(0,191,255,0.4)',
+          },
+          '50%': {
+            transform: 'scale(1.1)',
+            boxShadow: '0 0 25px rgba(255,255,255,0.9), 0 0 40px rgba(0,191,255,0.7)',
+          },
         },
         'shimmer': {
-          '0%, 100%': { textShadow: '0 0 8px rgba(255,255,255,0.6), 0 0 15px rgba(100,100,255,0.3)' },
-          '50%': { textShadow: '0 0 15px rgba(255,255,255,0.9), 0 0 25px rgba(100,100,255,0.6)' },
+          '0%, 100%': {
+            textShadow: '0 0 8px rgba(255,255,255,0.6), 0 0 15px rgba(100,100,255,0.3)',
+          },
+          '50%': {
+            textShadow: '0 0 15px rgba(255,255,255,0.9), 0 0 25px rgba(100,100,255,0.6)',
+          },
         },
         'dot-bounce': {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-12px)' },
         },
         'pulse-light': {
-            '0%, 100%': { opacity: '0.4' },
-            '50%': { opacity: '0.7' },
+          '0%, 100%': { opacity: '0.4' },
+          '50%': { opacity: '0.7' },
         },
       },
     },
   },
-  // Pastikan plugins tetap kosong atau tambahkan plugin yang kamu gunakan
   plugins: [],
-}
+};

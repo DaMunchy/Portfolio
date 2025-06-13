@@ -1,15 +1,11 @@
-"use client";
+"use client";More actions
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import { FaGithub, FaInstagram, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
-import LoadingScreen from "@/components/LoadingScreen"; 
-import './globals.css';
-
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp, FaBars, FaTimes } from "react-icons/fa";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [ip, setIp] = useState("Loading...");
   const [isOpen, setIsOpen] = useState(false);
@@ -18,13 +14,6 @@ export default function Home() {
     userAgent: "",
     language: "",
   });
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000); 
-    return () => clearTimeout(timer);
-  }, []);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -44,9 +33,6 @@ export default function Home() {
       .then((data) => setIp(data.ip))
       .catch(() => setIp("Not available"));
   }, []);
-
-
-  if (isLoading) return <LoadingScreen />;
 
   return (
     <div className="relative min-h-screen overflow-hidden font-sans">

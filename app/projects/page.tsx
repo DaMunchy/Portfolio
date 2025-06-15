@@ -27,10 +27,16 @@ export default function Projects() {
       link: "https://nyxchat.vercel.app/",
     },
     {
-      title: "Nyx Downloader",
+      title: "NAI",
       description:
-        "NyxDownloader is a modern, minimalist YouTube downloader built with Next.js. Instantly download YouTube videos and audio in MP3 or MP4 format without ads or distractions.",
-      link: "https://nyxdl.vercel.app/",
+        "NAI is An interactive AI web platform where you can chat with characters from anime, cartoons, and realistic styles. Each character has a unique personality and backstory.",
+      link: "https://nai-cyan.vercel.app/",
+    },
+    {
+      title: "Obfuscator",
+      description:
+        "Coming soon.",
+      link: "/projects",
     },
   ];
 
